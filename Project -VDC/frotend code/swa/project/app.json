@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Swadhara",
+    "slug": "swadhara-healthcare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/swadhara.jpg",
+    "scheme": "swadhara",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/swadhara.jpg",
+        "backgroundColor": "#007C91"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/swadhara.jpg"
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
